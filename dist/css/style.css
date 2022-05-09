@@ -20,12 +20,30 @@ html {
 
 .wrapper {
   max-width: 114rem;
+  width: 100%;
   margin: 0 auto;
 }
 
 .main {
   min-height: 100vh;
   background-color: var(--clr-neutral-light-gray);
+}
+
+.card {
+  width: 70%;
+  height: 50rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,4 @@
+.container {
+	@include flex-mother();
+	min-height: 100vh;
+}
