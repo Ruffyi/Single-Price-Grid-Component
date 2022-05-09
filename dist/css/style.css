@@ -6,9 +6,26 @@
   box-sizing: inherit;
 }
 
+:root {
+  --clr-primary-cyan: hsl(179deg, 62%, 43%);
+  --clr-primary-bright-yellow: hsl(71deg, 73%, 54%);
+  --clr-neutral-light-gray: hsl(204deg, 43%, 93%);
+  --clr-neutral-grayish-blue: hsl(218deg, 22%, 67%);
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+}
+
+.wrapper {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.main {
+  min-height: 100vh;
+  background-color: var(--clr-neutral-light-gray);
 }
 
 /*# sourceMappingURL=style.css.map */
