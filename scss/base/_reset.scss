@@ -15,4 +15,11 @@
 html {
 	box-sizing: border-box;
 	font-size: map-get($fs-map, 'primary');
+	font-family: 'Karla', 'sans-serif';
+	@include mediaQuery(map-get($breakpoints-map, '1073')) {
+		font-size: map-get($fs-map, 'secondary');
+	}
+	@include mediaQuery(map-get($breakpoints-map, '730')) {
+		font-size: map-get($fs-map, 'third');
+	}
 }
