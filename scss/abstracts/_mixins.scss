@@ -14,3 +14,8 @@
 		@content;
 	}
 }
+
+@mixin dimension($width, $height) {
+	width: $width;
+	height: $height;
+}

@@ -140,14 +140,16 @@ html {
   width: 100%;
   height: 6rem;
   border-radius: 1rem;
-  background-color: var(--clr-primary-bright-yellow);
-  color: var(--clr-neutral-white);
   font-weight: 700;
   font-family: inherit;
   font-size: 1.4rem;
   margin-top: 3rem;
   border: none;
   cursor: pointer;
+}
+.btn--sign {
+  background-color: var(--clr-primary-bright-yellow);
+  color: var(--clr-neutral-white);
 }
 
 /*# sourceMappingURL=style.css.map */
